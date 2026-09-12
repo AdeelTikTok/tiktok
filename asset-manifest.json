@@ -1,0 +1,632 @@
+﻿[
+    {
+        "original":  "Consulting Manager.jpeg",
+        "newPath":  "public/images/team/team-consulting-manager.jpeg",
+        "category":  "team",
+        "description":  "Studio portrait photo of the agency's Consulting Manager.",
+        "extractedText":  ""
+    },
+    {
+        "original":  "TS logo 3.png",
+        "newPath":  "public/images/brand-logo/ts-logo-blue-purple.png",
+        "category":  "brand-logo",
+        "description":  "Agency logo \u0027TikTok Shop Solutions\u0027 in a white/blue/purple colorway.",
+        "extractedText":  "TikTok Shop Solutions"
+    },
+    {
+        "original":  "TS logo 1.png",
+        "newPath":  "public/images/brand-logo/ts-logo-gold.png",
+        "category":  "brand-logo",
+        "description":  "Agency logo \u0027TikTok Shop Solutions\u0027 in a gold/black colorway.",
+        "extractedText":  "TikTok Shop Solutions"
+    },
+    {
+        "original":  "head of ecommerce operations.jpeg",
+        "newPath":  "public/images/team/team-head-of-ecommerce-operations.jpeg",
+        "category":  "team",
+        "description":  "Studio portrait photo of the agency\u0027s Head of Ecommerce Operations.",
+        "extractedText":  ""
+    },
+    {
+        "original":  "founder and ceo.jpeg",
+        "newPath":  "public/images/team/team-founder-ceo.jpeg",
+        "category":  "team",
+        "description":  "Studio portrait photo of the agency\u0027s Founder and CEO.",
+        "extractedText":  ""
+    },
+    {
+        "original":  "growth operation manager.jpeg",
+        "newPath":  "public/images/team/team-growth-operations-manager.jpeg",
+        "category":  "team",
+        "description":  "Studio portrait photo of the agency\u0027s Growth Operations Manager.",
+        "extractedText":  ""
+    },
+    {
+        "original":  "TS logo 2.png",
+        "newPath":  "public/images/brand-logo/ts-logo-teal.png",
+        "category":  "brand-logo",
+        "description":  "Agency logo \u0027TikTok Shop Solutions\u0027 in a teal/black colorway.",
+        "extractedText":  "TikTok Shop Solutions"
+    },
+    {
+        "original":  "TS logo 4.png",
+        "newPath":  "public/images/brand-logo/ts-logo-purple-green.png",
+        "category":  "brand-logo",
+        "description":  "Agency logo \u0027TikTok Shop Solutions\u0027 in a purple/white/green colorway.",
+        "extractedText":  "TikTok Shop Solutions"
+    },
+    {
+        "original":  "TS logo 5.png",
+        "newPath":  "public/images/brand-logo/ts-logo-neon.png",
+        "category":  "brand-logo",
+        "description":  "Agency logo \u0027TikTok Shop Solutions\u0027 in a neon green/pink colorway.",
+        "extractedText":  "TikTok Shop Solutions"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 10.20.55 PM.jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-france-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "TikTok Shop Seller Centre dashboard for European markets (France shop) showing GMV, customers, SKU orders and visitor metrics.",
+        "extractedText":  "GMV 2,816.31 EUR (+924.08%); Customers 117 (+1,070%); SKU orders 135 (+1,025%); Visitors 20,187 (+164.33%); Shop Health 200 Healthy; Last 28 days, updated 19 Aug 19:00 (GMT+00:00)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 10.21.11 PM.jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-italy-agency-banner-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "TikTok Shop dashboard for an Italy shop (TechTime20...) with an agency promotional banner overlaid at the bottom.",
+        "extractedText":  "GMV 1,706.27 EUR (+3.32%); Customers 89 (+7.23%); SKU orders 97 (+8.99%); Visitors 4,199 (+1.11%); Shop Health 253 Healthy; Orders to ship 307; Pending returns 31; Negative reviews 42; banner text: \u0027Smart Strategy. Real Growth. Better Results. We manage it all, you focus on growing! From traffic to sales - we\u0027ve got you covered.\u0027 WhatsApp +92 327 4698250."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.16 PM.jpeg",
+        "newPath":  "public/images/category-approved/category-approved-diamond-jewelry-01.jpeg",
+        "category":  "category-approved",
+        "description":  "Category qualification details screen showing an approved Diamond Jewelry Accessories category submission.",
+        "extractedText":  "Categories: Jewelry Accessories \u0026 Derivatives - Diamond - Diamond Bracelets \u0026 Anklets / Diamond Clothes Accessories / Diamond Earrings / Diamond Jewelry Sets. Status: Approved. Submitted 25/01/2026 16:44."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.19 PM (1).jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-before-after-01.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "Before/after Account Health Rating comparison for shop \u0027FesCove\u0027 (Shop Code USLCR8E2DR) showing a permanently-closed-shop violation before removal.",
+        "extractedText":  "Before: \u0027Your shop has been permanently closed; Shop settlement...\u0027 reason Non-Compliant Store Behavior, Failed appeal (cannot appeal again); Identity Verification Required 06/01/2025 (Successful, Canceled); Copyright Infringement Claim 04/28/2025 (Expired). After: Identity Verification Required shown Successful; Copyright Infringement Claim remains Expired 04/28/2025 11:16:22 AM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.19 PM.jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-saucony.jpeg",
+        "category":  "category-approved",
+        "description":  "Saucony brand logo image, used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "Saucony"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.20 PM (1).jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-nike.jpeg",
+        "category":  "category-approved",
+        "description":  "Nike brand logo image, used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "Nike"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.20 PM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-association-deactivated-shop-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Before/after Shop Health violation record showing a resolved \u0027Association with deactivated shop(s) Violation\u0027.",
+        "extractedText":  "Enforcement: Daily order creation is limited. Violation reason: Association with deactivated shop(s) Violation. Date 06/02/2026 09:53:33. Before status: Not appealed. After status: Successful (Canceled)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.21 PM (1).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-copyright-infringement-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Appeal details screen showing a successful appeal against a Copyright Infringement Claim violation.",
+        "extractedText":  "Enforcement: Freeze products; 15 point(s) removed. Violation reason: Copyright Infringement Claim. Status Successful. First Appeal Successful 11/07/2025 11:46:01 PM. Reason for appeal: \u0027I am authorized by the intellectual property rights owner to use this intellectual property.\u0027"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.21 PM.jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-before-after-02.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "Before/after Account Health Rating for shop \u0027Epsi-Pi USA\u0027 showing a permanently-closed-shop violation removed entirely after appeal.",
+        "extractedText":  "Before: \u0027Your shop has been permanently closed; Shop settlement...\u0027 reason Non-Compliant Store Behavior, Failed appeal (cannot appeal again), 11/11/2025 2:04:00 PM. After: \u0027No search results\u0027 (violation record fully removed)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.22 PM (1).jpeg",
+        "newPath":  "public/images/sales-proof/sales-tiktok-guide-graphic-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "TikTok-branded graphic titled \u0027How to be Successful on TikTok Shop: A Guide for Beginners\u0027 displaying example performance metrics.",
+        "extractedText":  "GMV $145,576.91 (+33.88%); SKU orders 9,077 (+28.73%); Customers 7,520 (+21.55%); Visitors 351,145 (+78.83%); Last 28 days, updated Jan 20."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.22 PM.jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-growth-sale-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "Seller Center dashboard labeled \u0027Growth Sale\u0027 showing strong period-over-period growth in GMV, customers and orders.",
+        "extractedText":  "GMV $102,903.30 (+297%); Customers 5,246 (+174%); SKU orders 5,510 (+176%); Visitors 214,942 (+300%); Orders to ship 575; Pending returns 78; Shop performance 4.0/5.0; Last 28 days, updated Jan 31."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.23 PM (1).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-abnormal-operation-performance-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal of an \u0027Abnormal Operation Performance\u0027 violation that had limited order volume and blocked new listings for 45 days.",
+        "extractedText":  "Violation reason: Abnormal Operation Performance. Status Successful. Date 11/21/2025 5:26:02 AM. Enforcement: Limit maximum order volume; You won\u0027t be able to create listings for 45 day(s)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.23 PM.jpeg",
+        "newPath":  "public/images/ads-performance/ads-performance-before-after-01.jpeg",
+        "category":  "ads-performance",
+        "description":  "Before/after TikTok Ads dashboard results for shop \u0027tiktokshop bestprice 4u\u0027 showing improved cost efficiency and ROI after optimization.",
+        "extractedText":  "Before (Dec 10-26, 2025): Cost 1,222.75 GBP; Orders 364; Cost per order 3.36 GBP; Gross revenue 6,076.01 GBP; ROI 4.97. After (Jan 10-26, 2026): Cost 376.17 GBP; Orders 367; Cost per order 1.02 GBP; Gross revenue 6,812.27 GBP; ROI 18.11."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.24 PM (1).jpeg",
+        "newPath":  "public/images/creator-affiliate/creator-affiliate-collaborations-partenaires-01.jpeg",
+        "category":  "creator-affiliate",
+        "description":  "TikTok Shop Affiliate Centre (French UI) showing partner collaborations for the \u0027Tolaacosmetic\u0027 store.",
+        "extractedText":  "\u0027Collaborations partenaires\u0027; brand: Tolia brand; registration period 18/05/2026; activation period 18/05/2026-30/06/2026."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.24 PM (2).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-high-customer-complaint-rate-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal removing a \u0027High Customer Complaint Rate\u0027 violation that had triggered a 50-point AHR penalty and multiple account restrictions.",
+        "extractedText":  "Violation reason: High Customer Complaint Rate. Date 08/02/2026 8:21:03 PM. Status Successful. Enforcement included: fund withdrawal suspension, shop visibility reduced, campaign access suspended, affiliate program canceled, transactions suspended, marketing campaign suspended, AHR violation points 50, affiliate marketing participation removed, platform-funded discount blocked. First Appeal Successful 08/04/2026 12:53:55 PM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.24 PM.jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-today-vs-28days-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "Dashboard for European markets comparing \u0027Today\u0027 performance to \u0027Last 28 days\u0027 totals.",
+        "extractedText":  "Today: GMV 691.50 EUR; Customers 40; SKU orders 44; Visitors 2,129; Shop Health 286 Healthy. Last 28 days: GMV 14,155.40 EUR; Customers 714; SKU orders 933; Visitors 75,526."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.25 PM (1).jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-italy-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "Dashboard for European markets, Italy shop (TechTime20...), showing GMV and traffic performance.",
+        "extractedText":  "GMV 25,610.25 EUR (+5.65%); Customers 1,252; SKU orders 1,350; Visitors 76,650; Shop Health 253 Healthy; Last 28 days, updated 14 Aug 19:00."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.25 PM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-duplicate-product-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal against a \u0027Duplicate product violation\u0027 enforcement (product freeze).",
+        "extractedText":  "Text overlay: \u0027TTS in EU - Only One Appeal Chance!\u0027 Violation reason: Duplicate product violation. Appeal Success."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.26 PM (1).jpeg",
+        "newPath":  "public/images/sales-proof/sales-analytics-italy-40k-gmv-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "TikTok Shop Analytics screen for an Italy shop (Guarozard) highlighting 60-day GMV growth.",
+        "extractedText":  "Text overlay: \u002740,351 EUR GMV in 60 days +344% vs previous period.\u0027 Key metrics: GMV 40,351.94 EUR (+344.77%); Orders 508 (+247.96%); Customers 351 (+216.22%); Items sold 716 (growth % partially visible); period 26 Apr - 24 Jun 2026."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.26 PM (2).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-copyright-infringement-02.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful first appeal against a Copyright Infringement Claim, stating the product was not a pirated copy.",
+        "extractedText":  "Violation reason: Copyright Infringement Claim. First Appeal Successful, 08/11/2025 1:33:54 AM. Reason for appeal: \u0027product is not pirated copy.\u0027"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.26 PM.jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-italy-27k-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "Dashboard for European markets, Italy shop, with caption \u0027Just 28 Days 27.4k EUR+ Sale\u0027.",
+        "extractedText":  "GMV 27,483.46 EUR (+50.77%); Customers 252; SKU orders 395 (+46.84%); Visitors 16,456 (+151.97%); Shop Health 208 Healthy."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.27 PM (1).jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-before-after-03.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "Before/after Account Health Rating for \u0027The Glowistry\u0027 shop showing a high-risk-shop-group violation removed while a negative balance notice remains.",
+        "extractedText":  "Before: \u0027Your shop has been identified as part of a high-risk shop group and requires additional verification\u0027 - Failed appeal, 03/18/2026; also \u0027Action Required: Negative Account Balance Detected\u0027 02/14/2026. After: only the negative-balance notice remains; caption \u0027Violation has been completely removed?\u0027"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.27 PM (2).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-high-customer-complaint-rate-02.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal against a \u0027High Customer Complaint Rate\u0027 enforcement that had extended settlement and reduced shop visibility.",
+        "extractedText":  "Violation reason: High Customer Complaint Rate. Date 06/29/2026 8:12:50 PM. Status Successful. Appeal reason: \u0027Fulfillment VoC issues are not attributable to your own responsibility.\u0027 Success time 07/07/2026 11:24:18 PM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.27 PM.jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-shop-closure-cancelled-01.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "\u0027One Up Deals\u0027 shop closure and fund-withdrawal suspension successfully appealed and cancelled (Non-Compliant Store Behavior).",
+        "extractedText":  "Violation reason: Non-Compliant Store Behavior. Date 03/30/2026 12:00:56 PM. Status Successful. Enforcement action cancelled - Shop closure, Fund withdrawal suspension, Shop orders canceled (03/30/2026-04/25/2026). First Appeal Successful 04/24/2026 1:36:24 PM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.28 PM (1).jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-id-verification-01.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "\u0027Legacy commerce\u0027 shop closure and fund-withdrawal suspension successfully appealed after ID verification (Unable to verify ID Information).",
+        "extractedText":  "Violation reason: Unable to verify ID Information. Date 07/01/2026 8:42:22 PM. Status Successful. Enforcement action cancelled - Shop orders canceled, Shop closure, Fund withdrawal (07/01/2026-07/17/2026)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.28 PM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-counterfeit-knockoff-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Second appeal successfully overturns a \u0027Potential counterfeit or knockoff products\u0027 violation after an initial failed appeal.",
+        "extractedText":  "Violation reason: Potential counterfeit or knockoff products have been identified. Date 28/08/2025 11:53:43. Status Successful. Second Appeal Successful 23/09/2025 08:08:36 (reason: \u0027product was purchased through a legitimate channel\u0027). First Appeal failed 29/08/2025 14:50:58."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.29 PM (1).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-high-risk-shop-group-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal removing a \u0027high-risk shop group\u0027 verification requirement that had limited daily orders and suspended fund withdrawal.",
+        "extractedText":  "Violation reason: Your shop has been identified as part of a high-risk shop group and requires additional verification. Date 07/21/2026 10:25:52 AM. Status Successful. First Appeal Successful 07/24/2026 9:12:04 PM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.29 PM (2).jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-italy-30k-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "Dashboard for European markets, Italy shop (Guarozard).",
+        "extractedText":  "GMV 30,157.28 EUR (+14.03%); Customers 401 (+79.02%); SKU orders 1,136 (+213.81%); Visitors 14,053 (-23.47%); Shop Health 220 Healthy (1 metric below threshold: Late Dispatch Rate 24.68%); Last 28 days, updated 14 Aug."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.29 PM.jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-moyaba-bijoux.jpeg",
+        "category":  "category-approved",
+        "description":  "\u0027Moyaba Bijoux\u0027 brand logo image, used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "Moyaba Bijoux"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.30 PM (1).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-abnormal-operation-performance-02.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal cancelling an \u0027Abnormal Operation Performance\u0027 enforcement that had reduced shop, video, LIVE and affiliate search visibility.",
+        "extractedText":  "Violation reason: Abnormal Operation Performance. Date 01/27/2026 8:05:29 PM. Status Successful. Enforcement action cancelled - shop-related video visibility reduced, shop affiliate recommendation visibility reduced, shop visibility in mall/affiliate search reduced, LIVE visibility reduced, shop search visibility reduced (01/27/2026-02/26/2026)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.30 PM.jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-locks-passion.jpeg",
+        "category":  "category-approved",
+        "description":  "\u0027Locks Passion\u0027 brand logo image, used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "Locks Passion"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.31 PM (1).jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-locks-passion.jpeg",
+        "category":  "category-approved",
+        "description":  "\u0027Locks Passion\u0027 brand logo image (duplicate copy of the same logo), used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "Locks Passion"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.31 PM (2).jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-slidaro.jpeg",
+        "category":  "category-approved",
+        "description":  "\u0027Slidaro - Nourish. Grow. Shine.\u0027 brand logo image, used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "Slidaro. Nourish. Grow. Shine."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.31 PM.jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-american-candy-coffee.jpeg",
+        "category":  "category-approved",
+        "description":  "\u0027American Candy Coffee\u0027 brand mascot logo image, used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "American Candy Coffee"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.32 PM (1).jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-wh-artist.jpeg",
+        "category":  "category-approved",
+        "description":  "\u0027WH Artist\u0027 (hair/salon) brand logo image, used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "WH Artist"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-01 at 9.50.32 PM.jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-staylyte.jpeg",
+        "category":  "category-approved",
+        "description":  "\u0027StayLyte\u0027 brand logo image, used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "StayLyte"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.43 AM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-high-risk-shop-group-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal removing a \u0027high-risk shop group\u0027 verification requirement that had limited daily orders and suspended fund withdrawal.",
+        "extractedText":  "Violation reason: Your shop has been identified as part of a high-risk shop group and requires additional verification. Date 07/21/2026 10:25:52 AM. Status Successful. First Appeal Successful 07/24/2026 9:12:04 PM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.45 AM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-copyright-infringement-02.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful first appeal against a Copyright Infringement Claim, stating the product was not a pirated copy.",
+        "extractedText":  "Violation reason: Copyright Infringement Claim. First Appeal Successful, 08/11/2025 1:33:54 AM. Reason for appeal: \u0027product is not pirated copy.\u0027"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.46 AM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-abnormal-operation-performance-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal of an \u0027Abnormal Operation Performance\u0027 violation that had limited order volume and blocked new listings for 45 days.",
+        "extractedText":  "Violation reason: Abnormal Operation Performance. Status Successful. Date 11/21/2025 5:26:02 AM. Enforcement: Limit maximum order volume; You won\u0027t be able to create listings for 45 day(s)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.47 AM.jpeg",
+        "newPath":  "public/images/category-approved/brand-logo-locks-passion.jpeg",
+        "category":  "category-approved",
+        "description":  "\u0027Locks Passion\u0027 brand logo image, used as supporting evidence in a brand/category qualification submission.",
+        "extractedText":  "Locks Passion"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.49 AM (1).jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-before-after-03.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "Before/after Account Health Rating for \u0027The Glowistry\u0027 shop showing a high-risk-shop-group violation removed while a negative balance notice remains.",
+        "extractedText":  "Before: \u0027Your shop has been identified as part of a high-risk shop group and requires additional verification\u0027 - Failed appeal, 03/18/2026; also \u0027Action Required: Negative Account Balance Detected\u0027 02/14/2026. After: only the negative-balance notice remains; caption \u0027Violation has been completely removed?\u0027"
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.49 AM (2).jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-shop-closure-cancelled-01.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "\u0027One Up Deals\u0027 shop closure and fund-withdrawal suspension successfully appealed and cancelled (Non-Compliant Store Behavior).",
+        "extractedText":  "Violation reason: Non-Compliant Store Behavior. Date 03/30/2026 12:00:56 PM. Status Successful. Enforcement action cancelled - Shop closure, Fund withdrawal suspension, Shop orders canceled (03/30/2026-04/25/2026). First Appeal Successful 04/24/2026 1:36:24 PM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.49 AM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-high-customer-complaint-rate-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal removing a \u0027High Customer Complaint Rate\u0027 violation that had triggered a 50-point AHR penalty and multiple account restrictions.",
+        "extractedText":  "Violation reason: High Customer Complaint Rate. Date 08/02/2026 8:21:03 PM. Status Successful. Enforcement included: fund withdrawal suspension, shop visibility reduced, campaign access suspended, affiliate program canceled, transactions suspended, marketing campaign suspended, AHR violation points 50, affiliate marketing participation removed, platform-funded discount blocked. First Appeal Successful 08/04/2026 12:53:55 PM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.50 AM.jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-italy-30k-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "Dashboard for European markets, Italy shop (Guarozard).",
+        "extractedText":  "GMV 30,157.28 EUR (+14.03%); Customers 401 (+79.02%); SKU orders 1,136 (+213.81%); Visitors 14,053 (-23.47%); Shop Health 220 Healthy (1 metric below threshold: Late Dispatch Rate 24.68%); Last 28 days, updated 14 Aug."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.51 AM.jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-id-verification-01.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "\u0027Legacy commerce\u0027 shop closure and fund-withdrawal suspension successfully appealed after ID verification (Unable to verify ID Information).",
+        "extractedText":  "Violation reason: Unable to verify ID Information. Date 07/01/2026 8:42:22 PM. Status Successful. Enforcement action cancelled - Shop orders canceled, Shop closure, Fund withdrawal (07/01/2026-07/17/2026)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.52 AM (1).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-counterfeit-knockoff-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Second appeal successfully overturns a \u0027Potential counterfeit or knockoff products\u0027 violation after an initial failed appeal.",
+        "extractedText":  "Violation reason: Potential counterfeit or knockoff products have been identified. Date 28/08/2025 11:53:43. Status Successful. Second Appeal Successful 23/09/2025 08:08:36 (reason: \u0027product was purchased through a legitimate channel\u0027). First Appeal failed 29/08/2025 14:50:58."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.52 AM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-duplicate-product-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal against a \u0027Duplicate product violation\u0027 enforcement (product freeze).",
+        "extractedText":  "Text overlay: \u0027TTS in EU - Only One Appeal Chance!\u0027 Violation reason: Duplicate product violation. Appeal Success."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.53 AM (1).jpeg",
+        "newPath":  "public/images/creator-affiliate/creator-affiliate-collaborations-partenaires-01.jpeg",
+        "category":  "creator-affiliate",
+        "description":  "TikTok Shop Affiliate Centre (French UI) showing partner collaborations for the \u0027Tolaacosmetic\u0027 store.",
+        "extractedText":  "\u0027Collaborations partenaires\u0027; brand: Tolia brand; registration period 18/05/2026; activation period 18/05/2026-30/06/2026."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.53 AM.jpeg",
+        "newPath":  "public/images/product-listing/product-listing-guarozard-pokemon-01.jpeg",
+        "category":  "product-listing",
+        "description":  "TikTok Shop Seller Centre \u0027Manage products\u0027 screen for an Italy shop (Guarozard) listing Pokemon and One Piece collectible products.",
+        "extractedText":  "Products: \u0027One Piece Booster box OP17 The World\u0027s Strongest Warriors JAP\u0027 (0 sold); \u0027Pokemon Blind Box Fight with All Your Might Series CHN\u0027 (4 sold, Sales 96,96 EUR); \u0027Pokemon Blind Box Bonsai 2 CHN\u0027 (5 sold, Sales 96,05 EUR, retail 19,99 EUR); \u0027Guarozard Pokemon Blind Box Valore garantito\u0027 (0 sold, retail 99,99 EUR). Live 179 products, Needs attention 7."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.54 AM.jpeg",
+        "newPath":  "public/images/account-creation/account-creation-store-setup-01.jpeg",
+        "category":  "account-creation",
+        "description":  "\u0027Set up your shop\u0027 onboarding screen for a new Italy TikTok Shop store, captioned \u0027Store Creation\u0027.",
+        "extractedText":  "Approved; Task progress 2/7; Add warehouse address (done); Add product (pending) with 3% commission fee reduction and EUR100 TikTok-funded vouchers offer, expires in 14 days."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.55 AM (1).jpeg",
+        "newPath":  "public/images/ads-performance/ads-performance-before-after-01.jpeg",
+        "category":  "ads-performance",
+        "description":  "Before/after TikTok Ads dashboard results for shop \u0027tiktokshop bestprice 4u\u0027 showing improved cost efficiency and ROI after optimization.",
+        "extractedText":  "Before (Dec 10-26, 2025): Cost 1,222.75 GBP; Orders 364; Cost per order 3.36 GBP; Gross revenue 6,076.01 GBP; ROI 4.97. After (Jan 10-26, 2026): Cost 376.17 GBP; Orders 367; Cost per order 1.02 GBP; Gross revenue 6,812.27 GBP; ROI 18.11."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.55 AM (2).jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-growth-sale-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "Seller Center dashboard labeled \u0027Growth Sale\u0027 showing strong period-over-period growth in GMV, customers and orders.",
+        "extractedText":  "GMV $102,903.30 (+297%); Customers 5,246 (+174%); SKU orders 5,510 (+176%); Visitors 214,942 (+300%); Orders to ship 575; Pending returns 78; Shop performance 4.0/5.0; Last 28 days, updated Jan 31."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.55 AM.jpeg",
+        "newPath":  "public/images/sales-proof/sales-tiktok-guide-graphic-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "TikTok-branded graphic titled \u0027How to be Successful on TikTok Shop: A Guide for Beginners\u0027 displaying example performance metrics.",
+        "extractedText":  "GMV $145,576.91 (+33.88%); SKU orders 9,077 (+28.73%); Customers 7,520 (+21.55%); Visitors 351,145 (+78.83%); Last 28 days, updated Jan 20."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.56 AM (1).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-association-deactivated-shop-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Before/after Shop Health violation record showing a resolved \u0027Association with deactivated shop(s) Violation\u0027.",
+        "extractedText":  "Enforcement: Daily order creation is limited. Violation reason: Association with deactivated shop(s) Violation. Date 06/02/2026 09:53:33. Before status: Not appealed. After status: Successful (Canceled)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.56 AM.jpeg",
+        "newPath":  "public/images/category-approved/category-approved-diamond-jewelry-01.jpeg",
+        "category":  "category-approved",
+        "description":  "Category qualification details screen showing an approved Diamond Jewelry Accessories category submission.",
+        "extractedText":  "Categories: Jewelry Accessories \u0026 Derivatives - Diamond - Diamond Bracelets \u0026 Anklets / Diamond Clothes Accessories / Diamond Earrings / Diamond Jewelry Sets. Status: Approved. Submitted 25/01/2026 16:44."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.57 AM.jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-before-after-01.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "Before/after Account Health Rating comparison for shop \u0027FesCove\u0027 (Shop Code USLCR8E2DR) showing a permanently-closed-shop violation before removal.",
+        "extractedText":  "Before: \u0027Your shop has been permanently closed; Shop settlement...\u0027 reason Non-Compliant Store Behavior, Failed appeal (cannot appeal again); Identity Verification Required 06/01/2025 (Successful, Canceled); Copyright Infringement Claim 04/28/2025 (Expired). After: Identity Verification Required shown Successful; Copyright Infringement Claim remains Expired 04/28/2025 11:16:22 AM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.58 AM (1).jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-before-after-02.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "Before/after Account Health Rating for shop \u0027Epsi-Pi USA\u0027 showing a permanently-closed-shop violation removed entirely after appeal.",
+        "extractedText":  "Before: \u0027Your shop has been permanently closed; Shop settlement...\u0027 reason Non-Compliant Store Behavior, Failed appeal (cannot appeal again), 11/11/2025 2:04:00 PM. After: \u0027No search results\u0027 (violation record fully removed)."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.58 AM.jpeg",
+        "newPath":  "public/images/ads-performance/ads-performance-gmvmax-techtime-01.jpeg",
+        "category":  "ads-performance",
+        "description":  "TikTok Shop Ads dashboard (GMV Max) for account \u0027TECH TIME DI VITALE RAFFAELE0305\u0027 showing August 2026 campaign results.",
+        "extractedText":  "Cost 1,499.18 EUR; SKU orders 1,100; Cost per order 1.36 EUR; Gross revenue 22,404.28 EUR (partially visible); ROI 14.94; period 2026-08-01 to 2026-08-31."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.36.59 AM.jpeg",
+        "newPath":  "public/images/creator-affiliate/creator-affiliate-welcome-dashboard-01.jpeg",
+        "category":  "creator-affiliate",
+        "description":  "TikTok Shop Affiliate Centre welcome screen for seller \u0027TechTime2015\u0027 showing outstanding creator/affiliate tasks.",
+        "extractedText":  "\u0027Hi TechTime2015! Welcome to TikTok Shop Affiliate.\u0027 Sample requests 146; Creator messages 35; Samples not enabled 85; Recommended products 0."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.37.00 AM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-valid-tracking-rate-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal of a \u0027Valid Tracking Rate Issue\u0027 violation, described as an error by TikTok Shop.",
+        "extractedText":  "Violation reason: Valid Tracking Rate Issue. AHR violation points 15 point(s). Date 08/18/2026 2:16:36 AM. Status Successful. First Appeal Successful, reason \u0027Error by TikTok Shop.\u0027 Violation details: Valid Tracking Rate 94.29% (minimum requirement 95%); assessment period 7/27/2026-8/3/2026."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.37.01 AM (1).jpeg",
+        "newPath":  "public/images/ads-performance/ads-performance-gmvmax-techtime-02.jpeg",
+        "category":  "ads-performance",
+        "description":  "TikTok Shop Ads dashboard (GMV Max) for account \u0027TECH TIME DI VITALE RAFFA...\u0027 with headline \u002726 Days Results\u0027, Aug 1-26 2026.",
+        "extractedText":  "Text overlay: \u0027What If Your TikTok Shop Could Sell More Without Simply Spending More?\u0027 Cost 1,333.16 EUR; SKU orders 945; Cost per order 1.41 EUR; Gross revenue 19,445.26 EUR (partially visible); ROI 14.59."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.37.01 AM.jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-high-customer-complaint-rate-03.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal against a High Customer Complaint Rate violation that had reduced shop visibility and canceled the affiliate program.",
+        "extractedText":  "Appeal reason: \u0027Fulfillment VoC issues are not attributable to your own responsibility.\u0027 Appeal Success, First Appeal Successful 08/22/2026 9:22:11 PM. Enforcement: Shop visibility reduced; Shop affiliate program is canceled."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.37.02 AM (1).jpeg",
+        "newPath":  "public/images/violation-removal/violation-removal-inauthentic-product-01.jpeg",
+        "category":  "violation-removal",
+        "description":  "Successful appeal against an \u0027Inauthentic/Unoriginal Product\u0027 violation that had blocked a product from affiliate marketing.",
+        "extractedText":  "Enforcement: Product cannot be used in affiliate marketing; Usage of products in... Violation reason: Inauthentic/Unoriginal Product. Date 06/30/2026 2:18:21 PM. Status Successful. First Appeal Successful 07/01/2026 10:17:08 PM."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.37.02 AM.jpeg",
+        "newPath":  "public/images/account-suspension-reactivation/suspension-reactivation-identity-verification-01.jpeg",
+        "category":  "account-suspension-reactivation",
+        "description":  "Second appeal successfully restores a shop after a \u0027Seller Registration - Unable to Verify Business or Individual\u0027 violation, using submitted ID documents and video.",
+        "extractedText":  "Violation reason: We are unable to verify your identity and business based on the documents you provided when registering your account. Second Appeal Successful, 04/08/2026 4:36:51 PM, reason \u0027Submitting Additional Information As Requested.\u0027 Enforcement: Shop orders are canceled; Shop closure; Fund withdrawal... Record violation reason: Seller Registration - Unable to Verify Business or Individual, 03/31/2026 12:03:54 AM, Status Successful."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.37.03 AM.jpeg",
+        "newPath":  "public/images/product-listing/product-listing-wafa-hair-artist-01.jpeg",
+        "category":  "product-listing",
+        "description":  "\u0027WafaHairArtist\u0027 branded TikTok Shop France storefront and \u0027Manage products\u0027 listing screen for haircare products.",
+        "extractedText":  "Products: Shampoing Nutri Protect (21,99 EUR), Spray Reconstructeur Curly Hair (21,99 EUR), Curly Hair Kit (39,99 EUR), Pack Nutri Protect Shampoing + Masque (45,55 EUR), Shampoing \u0026 Masque Nutri Protect et Spray Reconstructeur (64,55 EUR), Shampoing Curly Hair Sans Sulfate (24,55 EUR), Masque Curly Hair (21,55 EUR). Storefront banners: Soins Capillaires, Balayage, Coloration, Coiffure, Spa du Cheveux."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.37.04 AM (1).jpeg",
+        "newPath":  "public/images/sales-proof/sales-uk-white-label-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "TikTok Shop Analytics (Growth \u0026 Insights) screen for a UK Seller Central white-label account, captioned \u0027UK Seller Central - White Label Performance Update (1-28 Days)\u0027.",
+        "extractedText":  "GMV GBP14,183.23; Gross sales GBP16,313.70 (+9.25%); Total orders 771 (+8.29%); Ordered SKUs 798 (+7.84%); Sold quantity 827 (+8.39%); Buyers 767 (+7.88%); period Feb 1-28, 2026."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.37.04 AM.jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-italy-40k-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "Dashboard for European markets, Italy shop (Guarozard), showing strong month-over-month growth.",
+        "extractedText":  "GMV 40,023.34 EUR (+73.82%); Customers 456 (+58.89%); SKU orders 1,233 (+71.25%); Visitors 12,940 (-8.47%); Shop Health 228 Healthy; updated 2 Sep 19:00."
+    },
+    {
+        "original":  "WhatsApp Image 2026-09-04 at 5.37.05 AM.jpeg",
+        "newPath":  "public/images/sales-proof/sales-dashboard-italy-35k-01.jpeg",
+        "category":  "sales-proof",
+        "description":  "Dashboard for European markets, Italy shop (TechTime20...), showing growth with some items needing attention.",
+        "extractedText":  "GMV 35,297.57 EUR (+55.45%); Customers 1,740 (+45.85%); SKU orders 1,880 (+48.62%); Visitors 104,426 (+41.15%); Shop Health 189 Needs attention; Orders to ship 32 (Urgent: 1); Pending returns 55 (Urgent: 1); Negative reviews 16."
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.20.43 PM.mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-02.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.21.11 PM.mp4",
+        "newPath":  "public/videos/sales-proof/sales-screen-recording-dashboard-italy-01.mp4",
+        "category":  "sales-proof",
+        "description":  "Screen-recording video, same timestamp as the Italy sales dashboard (agency banner) screenshot - likely a recorded walkthrough of that dashboard. (confidence: medium-high, inferred from matching timestamp, content not directly viewable)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.21.13 PM (1).mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-08.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-04 at 5.37.05 AM.mp4",
+        "newPath":  "public/videos/sales-proof/sales-screen-recording-dashboard-italy-02.mp4",
+        "category":  "sales-proof",
+        "description":  "Screen-recording video, same timestamp as the Italy 35k GMV sales dashboard screenshot - likely a recorded walkthrough of that dashboard. (confidence: medium-high, inferred from matching timestamp, content not directly viewable)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.20.45 PM.mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-03.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.21.12 PM (1).mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-05.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.21.13 PM (2).mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-09.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.21.13 PM.mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-10.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.21.11 PM (1).mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-04.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.20.55 PM.mp4",
+        "newPath":  "public/videos/sales-proof/sales-screen-recording-dashboard-france-01.mp4",
+        "category":  "sales-proof",
+        "description":  "Screen-recording video, same timestamp as the France sales dashboard screenshot - likely a recorded walkthrough of that dashboard. (confidence: medium-high, inferred from matching timestamp, content not directly viewable)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.20.41 PM.mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-01.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.21.12 PM.mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-07.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    },
+    {
+        "original":  "WhatsApp Video 2026-09-01 at 10.21.12 PM (2).mp4",
+        "newPath":  "public/videos/viral-videos/viral-video-06.mp4",
+        "category":  "viral-videos",
+        "description":  "Video clip with no matching screenshot timestamp; content not directly viewable, defaulted to viral/creator video content. (confidence: low)",
+        "extractedText":  ""
+    }
+]
