@@ -5,8 +5,9 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { RevealLines, Reveal } from "@/components/ui/reveal";
 import { GoldButton, OutlineButton } from "@/components/ui/buttons";
 import HeroVisual from "./hero-visual";
+import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
-export default function Hero() {
+export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -35,46 +36,44 @@ export default function Hero() {
           <Reveal>
             <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-line bg-paper/[0.03] px-4 py-2 text-[11px] font-medium uppercase tracking-[0.2em] text-paper/60">
               <span className="h-1.5 w-1.5 rounded-full bg-gold" />
-              TikTok Shop Growth &amp; Management Agency
+              {dict.badge}
             </div>
           </Reveal>
 
           <h1 className="font-display text-[clamp(2.75rem,7vw,6rem)] leading-[0.98] tracking-tight text-paper">
-            <RevealLines text={"Your TikTok Shop.\nBuilt to Sell."} />
+            <RevealLines text={dict.headline} />
           </h1>
 
           <Reveal delay={0.3} className="mt-8 max-w-lg">
             <p className="text-base leading-relaxed text-paper/60 sm:text-lg">
-              From account creation and category approvals to creator
-              management, advertising and sales growth — we manage the
-              complete TikTok Shop operation.
+              {dict.subhead}
             </p>
           </Reveal>
 
           <Reveal delay={0.42} className="mt-10 flex flex-wrap items-center gap-4">
-            <GoldButton href="#contact">Book a Strategy Call</GoldButton>
-            <OutlineButton href="#results">View Our Results</OutlineButton>
+            <GoldButton href="#contact">{dict.ctaPrimary}</GoldButton>
+            <OutlineButton href="#results">{dict.ctaSecondary}</OutlineButton>
           </Reveal>
 
           <Reveal delay={0.55} className="mt-14 flex items-center gap-6 border-t border-line pt-8">
             <div className="flex flex-col">
               <span className="font-display text-2xl text-gold">8</span>
               <span className="text-[11px] uppercase tracking-[0.18em] text-paper/45">
-                Core Services
+                {dict.stats.services}
               </span>
             </div>
             <div className="h-8 w-px bg-line" />
             <div className="flex flex-col">
               <span className="font-display text-2xl text-gold">9</span>
               <span className="text-[11px] uppercase tracking-[0.18em] text-paper/45">
-                Global Markets
+                {dict.stats.markets}
               </span>
             </div>
             <div className="h-8 w-px bg-line" />
             <div className="flex flex-col">
               <span className="font-display text-2xl text-gold">360°</span>
               <span className="text-[11px] uppercase tracking-[0.18em] text-paper/45">
-                Shop Management
+                {dict.stats.management}
               </span>
             </div>
           </Reveal>
@@ -85,7 +84,7 @@ export default function Hero() {
 
       <div className="absolute inset-x-0 bottom-8 z-10 hidden justify-center sm:flex">
         <div className="flex flex-col items-center gap-2 text-paper/35">
-          <span className="text-[10px] uppercase tracking-[0.3em]">Scroll</span>
+          <span className="text-[10px] uppercase tracking-[0.3em]">{dict.scroll}</span>
           <span className="h-10 w-px animate-pulse bg-gradient-to-b from-gold to-transparent" />
         </div>
       </div>

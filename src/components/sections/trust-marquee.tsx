@@ -1,14 +1,19 @@
 import { Marquee } from "@/components/ui/marquee";
 import { MARKETS } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
+import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
-export default function TrustMarquee() {
+type TrustMarqueeProps = {
+  dict: Dictionary["trustMarquee"];
+};
+
+export default function TrustMarquee({ dict }: TrustMarqueeProps) {
   return (
     <section className="relative border-y border-line bg-ink py-14">
       <div className="container-px mx-auto mb-10 max-w-[1600px] text-center">
         <Reveal>
           <p className="text-xs font-medium uppercase tracking-[0.28em] text-paper/40">
-            Trusted Across Global TikTok Shop Markets
+            {dict.kicker}
           </p>
         </Reveal>
       </div>
@@ -31,10 +36,7 @@ export default function TrustMarquee() {
 
       <div className="container-px mx-auto mt-10 max-w-[1600px] text-center">
         <Reveal delay={0.1}>
-          <p className="mx-auto max-w-xl text-sm text-paper/45">
-            From new store launches to high-volume growth — we manage the
-            entire journey.
-          </p>
+          <p className="mx-auto max-w-xl text-sm text-paper/45">{dict.caption}</p>
         </Reveal>
       </div>
     </section>

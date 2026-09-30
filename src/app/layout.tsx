@@ -4,6 +4,9 @@ import "./globals.css";
 import SmoothScroll from "@/components/providers/smooth-scroll";
 import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
+import { getCurrentLocale } from "@/lib/i18n/current-locale";
+import { getDictionary } from "@/lib/i18n/get-dictionary";
+import { isRtlLocale } from "@/lib/i18n/locales";
 
 const fraunces = Fraunces({
   variable: "--font-display",
@@ -38,8 +41,9 @@ export const metadata: Metadata = {
     "TikTok Shop creators",
   ],
   icons: {
-    icon: "/images/new-logo.png",
-    shortcut: "/images/new-logo.png",
+    icon: "/images/icon-mark.png",
+    shortcut: "/images/icon-mark.png",
+    apple: "/images/icon-mark.png",
   },
   openGraph: {
     title: "TikTok Shop Solutions — TikTok Shop Growth & Management Agency",
@@ -49,17 +53,21 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const locale = await getCurrentLocale();
+  const dict = await getDictionary(locale);
+
   return (
     <html
-      lang="en"
+      lang={locale}
+      dir={isRtlLocale(locale) ? "rtl" : "ltr"}
       className={`${fraunces.variable} ${inter.variable} scroll-smooth`}
     >
       <body className="min-h-full flex flex-col bg-ink text-paper antialiased overflow-x-clip">
         <SmoothScroll>
-          <Nav />
+          <Nav dict={dict.nav} locale={locale} />
           {children}
-          <Footer />
+          <Footer dict={dict.footer} services={dict.services.items} countryNames={dict.countryNames} />
         </SmoothScroll>
       </body>
     </html>

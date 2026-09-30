@@ -25,7 +25,7 @@ export function GoldButton({ href, children, className, external }: BtnProps) {
         <span className="relative z-10">{children}</span>
         <span
           aria-hidden
-          className="relative z-10 inline-block transition-transform duration-300 group-hover:translate-x-1"
+          className="relative z-10 inline-block transition-transform duration-300 group-hover:translate-x-1 rtl:rotate-180 rtl:group-hover:-translate-x-1"
         >
           →
         </span>
@@ -48,7 +48,7 @@ export function OutlineButton({ href, children, className, external }: BtnProps)
         )}
       >
         <span>{children}</span>
-        <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1">
+        <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1 rtl:rotate-180 rtl:group-hover:-translate-x-1">
           →
         </span>
       </Link>

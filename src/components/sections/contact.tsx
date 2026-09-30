@@ -2,8 +2,9 @@ import { Kicker } from "@/components/ui/kicker";
 import { Reveal, RevealWords } from "@/components/ui/reveal";
 import { GoldButton, OutlineButton } from "@/components/ui/buttons";
 import { WHATSAPP_LINK } from "@/lib/utils";
+import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
-export default function Contact() {
+export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
   return (
     <section id="contact" className="noise-overlay relative overflow-hidden bg-ink py-28 sm:py-40">
       <div className="pointer-events-none absolute inset-0">
@@ -12,25 +13,23 @@ export default function Contact() {
 
       <div className="container-px relative mx-auto max-w-[1100px] text-center">
         <Kicker dark className="mx-auto justify-center">
-          Let&rsquo;s Talk
+          {dict.kicker}
         </Kicker>
         <h2 className="font-display mt-6 text-[clamp(2.2rem,6vw,5rem)] leading-[1.02] tracking-tight text-paper">
-          <RevealWords text="Ready to build a TikTok Shop that actually sells?" />
+          <RevealWords text={dict.heading} />
         </h2>
         <Reveal delay={0.2}>
           <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-paper/55">
-            Reach out on WhatsApp and we&rsquo;ll schedule a strategy call over
-            Google Meet to walk through your shop, your market and where we
-            can help.
+            {dict.body}
           </p>
         </Reveal>
 
         <Reveal delay={0.32} className="mt-12 flex flex-wrap items-center justify-center gap-4">
           <GoldButton href={WHATSAPP_LINK} external>
-            Book a Strategy Call
+            {dict.ctaPrimary}
           </GoldButton>
           <OutlineButton href={WHATSAPP_LINK} external>
-            Chat on WhatsApp
+            {dict.ctaSecondary}
           </OutlineButton>
         </Reveal>
 
@@ -42,12 +41,12 @@ export default function Contact() {
           <div className="hidden h-4 w-px bg-line sm:block" />
           <div className="flex items-center gap-2 text-sm text-paper/50">
             <span className="text-gold">◎</span>
-            Google Meet consultations
+            {dict.googleMeet}
           </div>
           <div className="hidden h-4 w-px bg-line sm:block" />
           <div className="flex items-center gap-2 text-sm text-paper/50">
             <span className="text-gold">⌖</span>
-            Punjab, Pakistan
+            {dict.location}
           </div>
         </Reveal>
       </div>

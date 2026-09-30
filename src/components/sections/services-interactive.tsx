@@ -15,8 +15,10 @@ type Service = {
 
 export default function ServicesInteractive({
   services,
+  serviceLabel,
 }: {
   services: Service[];
+  serviceLabel: string;
 }) {
   const [active, setActive] = useState(0);
   const current = services[active];
@@ -102,7 +104,7 @@ export default function ServicesInteractive({
               <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/10 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 p-8">
                 <p className="text-[11px] uppercase tracking-[0.2em] text-gold">
-                  Service {current.number}
+                  {serviceLabel} {current.number}
                 </p>
                 <p className="font-display mt-2 text-2xl text-paper">
                   {current.title}

@@ -10,7 +10,13 @@ export type ProofCategory =
   | { key: string; label: string; type: "images"; items: SizedImage[] }
   | { key: string; label: string; type: "videos"; items: string[] };
 
-export default function ProofTabs({ categories }: { categories: ProofCategory[] }) {
+export default function ProofTabs({
+  categories,
+  comingSoon,
+}: {
+  categories: ProofCategory[];
+  comingSoon: string;
+}) {
   const [active, setActive] = useState(categories[0]?.key ?? "");
   const current = categories.find((c) => c.key === active) ?? categories[0];
 
@@ -31,7 +37,7 @@ export default function ProofTabs({ categories }: { categories: ProofCategory[] 
             )}
           >
             {cat.label}
-            <span className="ml-2 text-[11px] opacity-60">{cat.items.length}</span>
+            <span className="ml-2 rtl:ml-0 rtl:mr-2 text-[11px] opacity-60">{cat.items.length}</span>
           </button>
         ))}
       </div>
@@ -46,9 +52,9 @@ export default function ProofTabs({ categories }: { categories: ProofCategory[] 
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
           >
             {current.type === "videos" ? (
-              <VideoGrid videos={current.items} />
+              <VideoGrid videos={current.items} comingSoon={comingSoon} />
             ) : (
-              <ImageMasonry images={current.items} label={current.label} />
+              <ImageMasonry images={current.items} label={current.label} comingSoon={comingSoon} />
             )}
           </motion.div>
         </AnimatePresence>
@@ -57,9 +63,17 @@ export default function ProofTabs({ categories }: { categories: ProofCategory[] 
   );
 }
 
-function ImageMasonry({ images, label }: { images: SizedImage[]; label: string }) {
+function ImageMasonry({
+  images,
+  label,
+  comingSoon,
+}: {
+  images: SizedImage[];
+  label: string;
+  comingSoon: string;
+}) {
   if (images.length === 0) {
-    return <p className="text-center text-sm text-paper/40">Coming soon.</p>;
+    return <p className="text-center text-sm text-paper/40">{comingSoon}</p>;
   }
   return (
     <div className="columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
@@ -82,9 +96,9 @@ function ImageMasonry({ images, label }: { images: SizedImage[]; label: string }
   );
 }
 
-function VideoGrid({ videos }: { videos: string[] }) {
+function VideoGrid({ videos, comingSoon }: { videos: string[]; comingSoon: string }) {
   if (videos.length === 0) {
-    return <p className="text-center text-sm text-paper/40">Coming soon.</p>;
+    return <p className="text-center text-sm text-paper/40">{comingSoon}</p>;
   }
   return (
     <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">

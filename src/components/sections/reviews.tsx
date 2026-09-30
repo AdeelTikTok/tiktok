@@ -5,6 +5,7 @@ import { Kicker } from "@/components/ui/kicker";
 import { Reveal, RevealWords } from "@/components/ui/reveal";
 import { ReviewCarousel } from "@/components/ui/review-carousel";
 import { StarRating } from "@/components/ui/star-rating";
+import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
 type Review = {
   id: number;
@@ -14,7 +15,7 @@ type Review = {
   created_at: string;
 };
 
-export default function Reviews() {
+export default function Reviews({ dict }: { dict: Dictionary["reviews"] }) {
   const [reviews, setReviews] = useState<Review[]>([]);
   const [formData, setFormData] = useState({ name: "", review: "", rating: 5 });
   const [loading, setLoading] = useState(false);
@@ -54,10 +55,10 @@ export default function Reviews() {
         setTimeout(() => setSubmitted(false), 3000);
       } else {
         const err = await response.json();
-        setError(err.error || "Failed to submit review");
+        setError(err.error || dict.genericError);
       }
     } catch (err) {
-      setError("Failed to submit review");
+      setError(dict.genericError);
       console.error(err);
     } finally {
       setLoading(false);
@@ -76,15 +77,14 @@ export default function Reviews() {
         {/* Header */}
         <div className="text-center mb-20">
           <Kicker dark className="mx-auto justify-center">
-            Social Proof
+            {dict.kicker}
           </Kicker>
           <h2 className="font-display mt-6 text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.1] tracking-tight text-paper max-w-4xl mx-auto">
-            <RevealWords text="Sellers who trust us" />
+            <RevealWords text={dict.heading} />
           </h2>
           <Reveal delay={0.2}>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-paper/60">
-              Real reviews from real shop owners managing millions in TikTok Shop sales
-              across our 9 global markets.
+              {dict.body}
             </p>
           </Reveal>
         </div>
@@ -99,7 +99,7 @@ export default function Reviews() {
           {/* Right: Review Form */}
           <div>
             <div className="rounded-2xl border border-gold/20 bg-gradient-to-br from-gold/5 to-transparent p-8 sticky top-24">
-              <h3 className="font-display text-2xl text-paper mb-6">Share Your Experience</h3>
+              <h3 className="font-display text-2xl text-paper mb-6">{dict.formHeading}</h3>
 
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div>
@@ -110,7 +110,7 @@ export default function Reviews() {
                     onChange={(e) =>
                       setFormData({ ...formData, name: e.target.value })
                     }
-                    placeholder="Your name"
+                    placeholder={dict.namePlaceholder}
                     className="w-full rounded-lg border border-line/30 bg-ink-2 px-4 py-2.5 text-paper placeholder-paper/30 text-sm transition-all focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/20"
                   />
                 </div>
@@ -122,14 +122,14 @@ export default function Reviews() {
                     onChange={(e) =>
                       setFormData({ ...formData, review: e.target.value })
                     }
-                    placeholder="Tell us about your experience..."
+                    placeholder={dict.reviewPlaceholder}
                     rows={4}
                     className="w-full rounded-lg border border-line/30 bg-ink-2 px-4 py-2.5 text-paper placeholder-paper/30 text-sm transition-all focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/20 resize-none"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-paper mb-3">Your Rating</label>
+                  <label className="block text-sm font-medium text-paper mb-3">{dict.ratingLabel}</label>
                   <StarRating
                     rating={formData.rating}
                     onChange={(rating) => setFormData({ ...formData, rating })}
@@ -144,7 +144,7 @@ export default function Reviews() {
 
                 {submitted && (
                   <p className="rounded-lg bg-green-500/10 p-3 text-xs text-green-400">
-                    ✓ Thank you! Review submitted for approval.
+                    {dict.successMessage}
                   </p>
                 )}
 
@@ -153,11 +153,11 @@ export default function Reviews() {
                   disabled={loading}
                   className="w-full rounded-lg bg-gradient-to-r from-gold to-gold-dark px-4 py-2.5 font-medium text-ink transition-all hover:shadow-[0_10px_30px_rgba(232,188,16,0.3)] disabled:opacity-50"
                 >
-                  {loading ? "Submitting..." : "Submit Review"}
+                  {loading ? dict.submitting : dict.submit}
                 </button>
 
                 <p className="text-xs text-paper/40 text-center">
-                  Reviews are moderated before appearing on the site.
+                  {dict.moderationNote}
                 </p>
               </form>
             </div>

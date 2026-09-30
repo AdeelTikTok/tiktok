@@ -1,35 +1,34 @@
 import { Kicker } from "@/components/ui/kicker";
 import { Reveal, RevealWords } from "@/components/ui/reveal";
 import { MARKETS } from "@/lib/utils";
+import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
-export default function About() {
+type AboutProps = {
+  dict: Dictionary["about"];
+  countryNames: Dictionary["countryNames"];
+};
+
+export default function About({ dict, countryNames }: AboutProps) {
   return (
     <section id="about" className="relative bg-paper py-28 sm:py-36">
       <div className="container-px mx-auto max-w-[1600px]">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
-            <Kicker>About Us</Kicker>
+            <Kicker>{dict.kicker}</Kicker>
             <h2 className="font-display mt-5 text-[clamp(2.1rem,5vw,3.8rem)] leading-[1.03] tracking-tight text-ink">
-              <RevealWords text="An operating partner, not a vendor." />
+              <RevealWords text={dict.heading} />
             </h2>
           </div>
 
           <div className="flex flex-col justify-center gap-8">
             <Reveal>
               <p className="text-xl leading-relaxed text-ink/70 sm:text-2xl font-display">
-                We don&rsquo;t just create TikTok Shops. We build the
-                systems, content, creator relationships and growth
-                strategies that turn TikTok attention into sustainable
-                commerce.
+                {dict.lead}
               </p>
             </Reveal>
             <Reveal delay={0.15}>
               <p className="max-w-xl text-base leading-relaxed text-ink/55">
-                TikTok Shop Solutions operates as an experienced TikTok Shop
-                growth partner across international markets — handling the
-                setup, compliance, content, advertising and fulfillment work
-                that a shop needs to run properly, so sellers can focus on
-                the product itself.
+                {dict.body}
               </p>
             </Reveal>
             <Reveal delay={0.25} className="flex flex-wrap gap-2 pt-2">
@@ -38,7 +37,7 @@ export default function About() {
                   key={m}
                   className="rounded-full border border-ink/12 px-3.5 py-1.5 text-[12px] text-ink/60"
                 >
-                  {m}
+                  {countryNames[m]}
                 </span>
               ))}
             </Reveal>

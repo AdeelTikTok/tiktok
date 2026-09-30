@@ -2,40 +2,26 @@ import Image from "next/image";
 import { getCategoryImages } from "@/lib/assets";
 import { Kicker } from "@/components/ui/kicker";
 import { Reveal, RevealWords } from "@/components/ui/reveal";
+import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
-const TEAM = [
-  {
-    role: "Founder & CEO",
-    note: "Sets the strategic direction across every market we operate in.",
-    match: "founder-ceo",
-  },
-  {
-    role: "Head of Ecommerce Operations",
-    note: "Oversees listings, fulfillment and store operations.",
-    match: "head-of-ecommerce-operations",
-  },
-  {
-    role: "Growth Operations Manager",
-    note: "Runs day-to-day growth execution across managed shops.",
-    match: "growth-operations-manager",
-  },
-  {
-    role: "Consulting Manager",
-    note: "Advises sellers on strategy and onboarding across managed shops.",
-    match: "consulting-manager",
-  },
+const MATCHES = [
+  "founder-ceo",
+  "head-of-ecommerce-operations",
+  "growth-operations-manager",
+  "consulting-manager",
 ];
 
-export default function Team() {
+export default function Team({ dict }: { dict: Dictionary["team"] }) {
   const images = getCategoryImages("team");
+  const TEAM = dict.members.map((member, i) => ({ ...member, match: MATCHES[i] }));
 
   return (
     <section id="team" className="relative bg-ink py-28 sm:py-36">
       <div className="container-px mx-auto max-w-[1600px]">
         <div className="mb-16 max-w-2xl">
-          <Kicker dark>Leadership</Kicker>
+          <Kicker dark>{dict.kicker}</Kicker>
           <h2 className="font-display mt-5 text-[clamp(2.1rem,5vw,3.8rem)] leading-[1.03] tracking-tight text-paper">
-            <RevealWords text="The team behind the operation." />
+            <RevealWords text={dict.heading} />
           </h2>
         </div>
 

@@ -90,8 +90,7 @@ body {
 }
 
 .container-px {
-  padding-left: clamp(1.25rem, 5vw, 6rem);
-  padding-right: clamp(1.25rem, 5vw, 6rem);
+  padding-inline: clamp(1.25rem, 5vw, 6rem);
 }
 
 @media (prefers-reduced-motion: reduce) {

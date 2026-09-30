@@ -5,18 +5,24 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { Logo } from "@/components/ui/logo";
 import { GoldButton } from "@/components/ui/buttons";
+import { LanguageSwitcher } from "./language-switcher";
+import type { Dictionary } from "@/lib/i18n/get-dictionary";
+import type { Locale } from "@/lib/i18n/locales";
 
-const LINKS = [
-  { label: "Home", href: "#home" },
-  { label: "Services", href: "#services" },
-  { label: "Results", href: "#results" },
-  { label: "About", href: "#about" },
-  { label: "Team", href: "#team" },
-  { label: "Markets", href: "#markets" },
-  { label: "Contact", href: "#contact" },
-];
+const HREFS = ["#home", "#services", "#results", "#about", "#team", "#markets", "#contact"] as const;
 
-export default function Nav() {
+export default function Nav({ dict, locale }: { dict: Dictionary["nav"]; locale: Locale }) {
+  const labels = [
+    dict.links.home,
+    dict.links.services,
+    dict.links.results,
+    dict.links.about,
+    dict.links.team,
+    dict.links.markets,
+    dict.links.contact,
+  ];
+  const LINKS = HREFS.map((href, i) => ({ href, label: labels[i] }));
+
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -43,7 +49,7 @@ export default function Nav() {
         }`}
       >
         <nav className="container-px mx-auto flex h-20 max-w-[1600px] items-center justify-between">
-          <Link href="#home" onClick={() => setOpen(false)} aria-label="TikTok Shop Solutions home">
+          <Link href="#home" onClick={() => setOpen(false)} aria-label={dict.homeAriaLabel}>
             <Logo size="lg" />
           </Link>
 
@@ -60,8 +66,9 @@ export default function Nav() {
             ))}
           </ul>
 
-          <div className="hidden lg:block">
-            <GoldButton href="#contact">Book a Meeting</GoldButton>
+          <div className="hidden items-center gap-4 lg:flex">
+            <LanguageSwitcher currentLocale={locale} dark />
+            <GoldButton href="#contact">{dict.bookMeeting}</GoldButton>
           </div>
 
           <button
@@ -116,11 +123,14 @@ export default function Nav() {
               ))}
             </ul>
             <div className="flex flex-col gap-4">
+              <div className="flex justify-center">
+                <LanguageSwitcher currentLocale={locale} dark />
+              </div>
               <GoldButton href="#contact" className="w-full justify-center">
-                Book a Meeting
+                {dict.bookMeeting}
               </GoldButton>
               <p className="text-center text-xs uppercase tracking-[0.2em] text-paper/40">
-                UK · USA · Europe · Malaysia · Mexico · Brazil
+                {dict.marketsStrip}
               </p>
             </div>
           </motion.div>
